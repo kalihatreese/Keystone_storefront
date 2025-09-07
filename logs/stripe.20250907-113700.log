@@ -1,0 +1,19 @@
+Checking for new versions...
+
+Getting ready...
+Ready! You are using Stripe API Version [2025-02-24.acacia]. Your webhook signing secret is REDACTED_STRIPE_WH (^C to quit)
+2025-09-07 11:05:29   --> product.created [evt_1S4k9mEg2XSaNQjK5BwtRIrv]
+2025-09-07 11:05:29  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_1S4k9mEg2XSaNQjK5BwtRIrv]
+2025-09-07 11:05:29   --> price.created [evt_1S4k9mEg2XSaNQjKnE2iDx0A]
+2025-09-07 11:05:29  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_1S4k9mEg2XSaNQjKnE2iDx0A]
+2025-09-07 11:05:32   --> payment_intent.succeeded [evt_3S4k9oEg2XSaNQjK142oqkOI]
+2025-09-07 11:05:32  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_3S4k9oEg2XSaNQjK142oqkOI]
+2025-09-07 11:05:32   --> payment_intent.created [evt_3S4k9oEg2XSaNQjK1RHg4rMe]
+2025-09-07 11:05:32  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_3S4k9oEg2XSaNQjK1RHg4rMe]
+2025-09-07 11:05:32   --> checkout.session.completed [evt_1S4k9pEg2XSaNQjKLevnYthF]
+2025-09-07 11:05:32  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_1S4k9pEg2XSaNQjKLevnYthF]
+2025-09-07 11:05:32   --> charge.succeeded [evt_3S4k9oEg2XSaNQjK10nFDg7G]
+2025-09-07 11:05:32  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_3S4k9oEg2XSaNQjK10nFDg7G]
+2025-09-07 11:05:34   --> charge.updated [evt_3S4k9oEg2XSaNQjK1A985CVC]
+2025-09-07 11:05:34  <--  [200] POST http://localhost:3000/api/stripe/webhook [evt_3S4k9oEg2XSaNQjK1A985CVC]
+

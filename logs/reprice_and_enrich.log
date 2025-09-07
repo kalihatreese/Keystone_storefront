@@ -1,0 +1,86 @@
+{
+  "updated": 0,
+  "flagged": [
+    {
+      "name": "Ashwagandha",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Blue Light Glasses",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Weighted Blanket",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Polymer Clay Earrings",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Oat Milk",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Massage Gun",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Weighted Hula Hoop",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Mom Jeans",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Pickleball Paddles",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Tennis Skirt",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Yoga Pants for Women",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Wax Melts",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Melatonin Gummies",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Nano Tape",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Ergonomic Chair",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Griddle",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Pizza Oven",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Mandoline Slicer",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Air Fryers",
+      "reason": "no_competitor"
+    },
+    {
+      "name": "Vitamin C Serum",
+      "reason": "no_competitor"
+    }
+  ],
+  "total": 45
+}

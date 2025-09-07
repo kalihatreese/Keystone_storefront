@@ -1,0 +1,632 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Ashwagandha",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/ashwagandha",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972547Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Blue Light Glasses",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/blue-light-glasses",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972572Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Weighted Blanket",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/weighted-blanket",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972581Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Polymer Clay Earrings",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/polymer-clay-earrings",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972587Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Oat Milk",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/oat-milk",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972591Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Massage Gun",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/massage-gun",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972596Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Weighted Hula Hoop",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/weighted-hula-hoop",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972600Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Mom Jeans",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/mom-jeans",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972610Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Pickleball Paddles",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/pickleball-paddles",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972619Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Tennis Skirt",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/tennis-skirt",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972634Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Yoga Pants for Women",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/yoga-pants-for-women",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972665Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Wax Melts",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/wax-melts",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972681Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Melatonin Gummies",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/melatonin-gummies",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972693Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Nano Tape",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/nano-tape",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972702Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Ergonomic Chair",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/ergonomic-chair",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972715Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Griddle",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/griddle",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972729Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Pizza Oven",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/pizza-oven",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972736Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Mandoline Slicer",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/mandoline-slicer",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972740Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Air Fryers",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/air-fryers",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972744Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vitamin C Serum",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/vitamin-c-serum",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972748Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Period Underwear",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/period-underwear",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972752Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Kitchen Towels",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/kitchen-towels",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972767Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Hammock Chair",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/hammock-chair",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972811Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Camping Mattress",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/camping-mattress",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972817Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Hair Growth Shampoo",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/hair-growth-shampoo",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972821Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Nipple Pasties",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/nipple-pasties",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972825Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Dark Spot Remover",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/dark-spot-remover",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972830Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Portable Power Station",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/portable-power-station",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972834Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Diamond Painting Kits",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/diamond-painting-kits",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972838Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vegan Protein Powder",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/vegan-protein-powder",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972842Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Dog Stroller",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/dog-stroller",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972846Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Monk Fruit",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/monk-fruit",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972866Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Popping Boba",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/popping-boba",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972877Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Diabetic Socks",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/diabetic-socks",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972892Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Mineral Sunscreen",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/mineral-sunscreen",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972900Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "LED Light Strip",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/led-light-strip",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972909Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Vegan Collagen",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/vegan-collagen",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972917Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Exfoliating Gloves",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/exfoliating-gloves",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972924Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Foot Mask",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/foot-mask",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972932Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Acne Patches",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/acne-patches",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972939Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Resin Mold",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/resin-mold",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972956Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Living Soil",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/living-soil",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972965Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Nap Dress",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/nap-dress",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972977Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Boho Pillow",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/boho-pillow",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.972992Z"
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Magnetic Lashes",
+    "url": "https://amount-rewards-findings-advisor.trycloudflare.com/product/magnetic-lashes",
+    "brand": "Keystone",
+    "offers": {
+      "@type": "Offer",
+      "price": "19.99",
+      "priceCurrency": "USD",
+      "availability": "https://schema.org/InStock"
+    },
+    "dateModified": "2025-09-07T22:34:24.973002Z"
+  }
+]
