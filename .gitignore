@@ -1,6 +1,15 @@
-node_modules
-.next
+# deps and builds
+node_modules/
+.next/
+dist/
+build/
+.out/
+# env and logs
 .env
-.vercel
-dist
-docker-image.tar
+.env.*
+logs/
+npm-debug.log*
+yarn-error.log*
+# misc
+.DS_Store
+*.local
