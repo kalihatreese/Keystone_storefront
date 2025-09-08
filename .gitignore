@@ -1,15 +1,13 @@
-# deps and builds
 node_modules/
 .next/
 dist/
 build/
 .out/
-# env and logs
+.venv/
+logs/
 .env
 .env.*
-logs/
 npm-debug.log*
 yarn-error.log*
-# misc
 .DS_Store
 *.local
