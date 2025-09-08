@@ -1,0 +1,46 @@
+name: Deploy to Vercel
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: npm ci
+      - run: npm run build
+        env:
+          NODE_ENV: production
+          # build-time envs (add as GitHub repo secrets)
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          STRIPE_PUBLISHABLE_KEY: ${{ secrets.STRIPE_PUBLISHABLE_KEY }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          KEYSTONE_CATALOG_URL: ${{ secrets.KEYSTONE_CATALOG_URL }}
+          KEYSTONE_PRICING_URL: ${{ secrets.KEYSTONE_PRICING_URL }}
+          KEYSTONE_INVENTORY_URL: ${{ secrets.KEYSTONE_INVENTORY_URL }}
+          KEYSTONE_PROMO_URL: ${{ secrets.KEYSTONE_PROMO_URL }}
+          KEYSTONE_CHAT_URL: ${{ secrets.KEYSTONE_CHAT_URL }}
+      - name: Deploy with Vercel
+        uses: vercel/actions/deploy@v1
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          working-directory: .
+          prod: true
+        env:
+          # runtime envs (go to Vercel Project → Settings → Environment too)
+          STRIPE_SECRET_KEY: ${{ secrets.STRIPE_SECRET_KEY }}
+          STRIPE_PUBLISHABLE_KEY: ${{ secrets.STRIPE_PUBLISHABLE_KEY }}
+          STRIPE_WEBHOOK_SECRET: ${{ secrets.STRIPE_WEBHOOK_SECRET }}
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+          KEYSTONE_CATALOG_URL: ${{ secrets.KEYSTONE_CATALOG_URL }}
+          KEYSTONE_PRICING_URL: ${{ secrets.KEYSTONE_PRICING_URL }}
+          KEYSTONE_INVENTORY_URL: ${{ secrets.KEYSTONE_INVENTORY_URL }}
+          KEYSTONE_PROMO_URL: ${{ secrets.KEYSTONE_PROMO_URL }}
+          KEYSTONE_CHAT_URL: ${{ secrets.KEYSTONE_CHAT_URL }}
