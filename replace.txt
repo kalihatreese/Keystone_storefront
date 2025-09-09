@@ -1,0 +1,3 @@
+regex:sk_live_[0-9A-Za-z]+==>REDACTED_STRIPE_SK
+regex:pk_live_[0-9A-Za-z]+==>REDACTED_STRIPE_PK
+regex:whsec_[0-9A-Za-z]+==>REDACTED_STRIPE_WH

@@ -1,0 +1,848 @@
+{
+  "config": {
+    "catalogEndpoint": "http://localhost:7781/catalog",
+    "pricingEndpoint": "http://localhost:7781/price",
+    "inventoryEndpoint": "http://localhost:7781/inventory",
+    "promoEndpoint": "http://localhost:7781/promo",
+    "chatEndpoint": "http://localhost:7781/chat",
+    "restrictedTags": [
+      "alcohol",
+      "nicotine",
+      "cbd"
+    ],
+    "adminEmail": "kalihatreese@gmail.com"
+  },
+  "products": [
+    {
+      "id": "ashwagandha-0",
+      "name": "Ashwagandha",
+      "description": "Ashwagandha — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "blue-light-glasses-1",
+      "name": "Blue Light Glasses",
+      "description": "Blue Light Glasses — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "weighted-blanket-2",
+      "name": "Weighted Blanket",
+      "description": "Weighted Blanket — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "polymer-clay-earrings-3",
+      "name": "Polymer Clay Earrings",
+      "description": "Polymer Clay Earrings — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "oat-milk-4",
+      "name": "Oat Milk",
+      "description": "Oat Milk — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "massage-gun-5",
+      "name": "Massage Gun",
+      "description": "Massage Gun — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "weighted-hula-hoop-6",
+      "name": "Weighted Hula Hoop",
+      "description": "Weighted Hula Hoop — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "mom-jeans-7",
+      "name": "Mom Jeans",
+      "description": "Mom Jeans — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "pickleball-paddles-8",
+      "name": "Pickleball Paddles",
+      "description": "Pickleball Paddles — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "tennis-skirt-9",
+      "name": "Tennis Skirt",
+      "description": "Tennis Skirt — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "yoga-pants-for-women-10",
+      "name": "Yoga Pants for Women",
+      "description": "Yoga Pants for Women — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "wax-melts-11",
+      "name": "Wax Melts",
+      "description": "Wax Melts — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "melatonin-gummies-12",
+      "name": "Melatonin Gummies",
+      "description": "Melatonin Gummies — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "nano-tape-13",
+      "name": "Nano Tape",
+      "description": "Nano Tape — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "ergonomic-chair-14",
+      "name": "Ergonomic Chair",
+      "description": "Ergonomic Chair — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "griddle-15",
+      "name": "Griddle",
+      "description": "Griddle — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "pizza-oven-16",
+      "name": "Pizza Oven",
+      "description": "Pizza Oven — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "mandoline-slicer-17",
+      "name": "Mandoline Slicer",
+      "description": "Mandoline Slicer — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "air-fryers-18",
+      "name": "Air Fryers",
+      "description": "Air Fryers — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "vitamin-c-serum-19",
+      "name": "Vitamin C Serum",
+      "description": "Vitamin C Serum — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "period-underwear-20",
+      "name": "Period Underwear",
+      "description": "Period Underwear — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "kitchen-towels-21",
+      "name": "Kitchen Towels",
+      "description": "Kitchen Towels — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "hammock-chair-22",
+      "name": "Hammock Chair",
+      "description": "Hammock Chair — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "camping-mattress-23",
+      "name": "Camping Mattress",
+      "description": "Camping Mattress — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "hair-growth-shampoo-24",
+      "name": "Hair Growth Shampoo",
+      "description": "Hair Growth Shampoo — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "nipple-pasties-25",
+      "name": "Nipple Pasties",
+      "description": "Nipple Pasties — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "dark-spot-remover-26",
+      "name": "Dark Spot Remover",
+      "description": "Dark Spot Remover — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "portable-power-station-27",
+      "name": "Portable Power Station",
+      "description": "Portable Power Station — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "diamond-painting-kits-28",
+      "name": "Diamond Painting Kits",
+      "description": "Diamond Painting Kits — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "vegan-protein-powder-29",
+      "name": "Vegan Protein Powder",
+      "description": "Vegan Protein Powder — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "dog-stroller-30",
+      "name": "Dog Stroller",
+      "description": "Dog Stroller — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "monk-fruit-31",
+      "name": "Monk Fruit",
+      "description": "Monk Fruit — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "popping-boba-32",
+      "name": "Popping Boba",
+      "description": "Popping Boba — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "nicotine-pouches-33",
+      "name": "Nicotine Pouches",
+      "description": "Nicotine Pouches — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [
+        "restricted"
+      ],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": false
+    },
+    {
+      "id": "diabetic-socks-34",
+      "name": "Diabetic Socks",
+      "description": "Diabetic Socks — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "mineral-sunscreen-35",
+      "name": "Mineral Sunscreen",
+      "description": "Mineral Sunscreen — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "led-light-strip-36",
+      "name": "LED Light Strip",
+      "description": "LED Light Strip — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "vegan-collagen-37",
+      "name": "Vegan Collagen",
+      "description": "Vegan Collagen — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "hard-kombucha-38",
+      "name": "Hard Kombucha",
+      "description": "Hard Kombucha — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [
+        "restricted"
+      ],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": false
+    },
+    {
+      "id": "exfoliating-gloves-39",
+      "name": "Exfoliating Gloves",
+      "description": "Exfoliating Gloves — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "hemp-gummies-40",
+      "name": "Hemp Gummies",
+      "description": "Hemp Gummies — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [
+        "restricted"
+      ],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": false
+    },
+    {
+      "id": "foot-mask-41",
+      "name": "Foot Mask",
+      "description": "Foot Mask — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "acne-patches-42",
+      "name": "Acne Patches",
+      "description": "Acne Patches — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "cbd-balm-43",
+      "name": "CBD Balm",
+      "description": "CBD Balm — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [
+        "restricted"
+      ],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": false
+    },
+    {
+      "id": "resin-mold-44",
+      "name": "Resin Mold",
+      "description": "Resin Mold — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "cbd-drinks-45",
+      "name": "CBD Drinks",
+      "description": "CBD Drinks — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [
+        "restricted"
+      ],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": false
+    },
+    {
+      "id": "living-soil-46",
+      "name": "Living Soil",
+      "description": "Living Soil — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "nap-dress-47",
+      "name": "Nap Dress",
+      "description": "Nap Dress — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "boho-pillow-48",
+      "name": "Boho Pillow",
+      "description": "Boho Pillow — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    },
+    {
+      "id": "magnetic-lashes-49",
+      "name": "Magnetic Lashes",
+      "description": "Magnetic Lashes — auto-populated 2025-09-05",
+      "images": [],
+      "tags": [],
+      "price": 1999,
+      "currency": "USD",
+      "inventory": 100,
+      "createdAt": "2025-09-05T23:41:45.758Z",
+      "updatedAt": "2025-09-05T23:41:45.758Z",
+      "enabled": true
+    }
+  ],
+  "orders": [],
+  "events": [
+    {
+      "ts": 1757256791421,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jxrEg2XSaNQjKnFMQuI86",
+        "type": "product.created"
+      }
+    },
+    {
+      "ts": 1757256791742,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jxrEg2XSaNQjKyMmPJDs7",
+        "type": "price.created"
+      }
+    },
+    {
+      "ts": 1757256794629,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jxuEg2XSaNQjK17RsqpUA",
+        "type": "charge.succeeded"
+      }
+    },
+    {
+      "ts": 1757256794691,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jxuEg2XSaNQjK1l2Do80L",
+        "type": "payment_intent.succeeded"
+      }
+    },
+    {
+      "ts": 1757256794764,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jxvEg2XSaNQjKGtYH5yng",
+        "type": "checkout.session.completed"
+      }
+    },
+    {
+      "ts": 1757256794767,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jxuEg2XSaNQjK1JZsSx0v",
+        "type": "payment_intent.created"
+      }
+    },
+    {
+      "ts": 1757256797039,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jxuEg2XSaNQjK1r0CfiI5",
+        "type": "charge.updated"
+      }
+    },
+    {
+      "ts": 1757256852917,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jysEg2XSaNQjK7FFdE1py",
+        "type": "product.created"
+      }
+    },
+    {
+      "ts": 1757256853302,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jytEg2XSaNQjKmZ5wbPTK",
+        "type": "price.created"
+      }
+    },
+    {
+      "ts": 1757256858350,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jyvEg2XSaNQjK0A39UQth",
+        "type": "charge.succeeded"
+      }
+    },
+    {
+      "ts": 1757256858363,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jyvEg2XSaNQjK06rr98Hr",
+        "type": "payment_intent.succeeded"
+      }
+    },
+    {
+      "ts": 1757256858416,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4jywEg2XSaNQjKjTPbYQ0l",
+        "type": "checkout.session.completed"
+      }
+    },
+    {
+      "ts": 1757256858768,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jyvEg2XSaNQjK0LXK8oe8",
+        "type": "payment_intent.created"
+      }
+    },
+    {
+      "ts": 1757256860309,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4jyvEg2XSaNQjK0vaH81nv",
+        "type": "charge.updated"
+      }
+    },
+    {
+      "ts": 1757257529085,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4k9mEg2XSaNQjK5BwtRIrv",
+        "type": "product.created"
+      }
+    },
+    {
+      "ts": 1757257529393,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4k9mEg2XSaNQjKnE2iDx0A",
+        "type": "price.created"
+      }
+    },
+    {
+      "ts": 1757257532067,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4k9oEg2XSaNQjK142oqkOI",
+        "type": "payment_intent.succeeded"
+      }
+    },
+    {
+      "ts": 1757257532141,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4k9oEg2XSaNQjK1RHg4rMe",
+        "type": "payment_intent.created"
+      }
+    },
+    {
+      "ts": 1757257532164,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_1S4k9pEg2XSaNQjKLevnYthF",
+        "type": "checkout.session.completed"
+      }
+    },
+    {
+      "ts": 1757257532179,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4k9oEg2XSaNQjK10nFDg7G",
+        "type": "charge.succeeded"
+      }
+    },
+    {
+      "ts": 1757257534225,
+      "type": "stripe.event",
+      "payload": {
+        "id": "evt_3S4k9oEg2XSaNQjK1A985CVC",
+        "type": "charge.updated"
+      }
+    }
+  ]
+}
