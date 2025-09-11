@@ -1,0 +1,58 @@
+   ▲ Next.js 15.5.3
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/api/stripe/webhook/route.ts
+Module not found: Can't resolve 'stripe'
+
+https://nextjs.org/docs/messages/module-not-found
+
+./components/Products.tsx
+Error:   x Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+    ,-[/data/data/com.termux/files/home/keystone_storefront/components/Products.tsx:14:1]
+ 11 |           <div style={{margin:"8px 0", fontWeight:700}}>${(Number(p.price)).toFixed(2)}</div>
+ 12 |           <AddToCart id={p.id}>
+ 13 |         </div>
+ 14 |       ))}
+    :         ^
+ 15 |     </div>
+ 16 |   );
+ 17 | }
+    `----
+  x Expected '</', got 'jsx text (
+  |       ))}
+  |     )'
+    ,-[/data/data/com.termux/files/home/keystone_storefront/components/Products.tsx:13:1]
+ 10 |               <div style={{color:"#666", fontSize:14, minHeight:40}}>{(p as any)?.description ?? ""}</div>
+ 11 |               <div style={{margin:"8px 0", fontWeight:700}}>${(Number(p.price)).toFixed(2)}</div>
+ 12 |               <AddToCart id={p.id}>
+ 13 | ,->         </div>
+ 14 | |         ))}
+ 15 | `->     </div>
+ 16 |       );
+ 17 |     }
+    `----
+
+Caused by:
+    0: failed to process js file
+    1: Syntax Error
+    at module.exports.__wbindgen_error_new (/data/data/com.termux/files/home/.npm/_npx/8b377f6eec906bc4/node_modules/next/wasm/@next/swc-wasm-nodejs/wasm.js:647:17)
+    at wasm.wasm.__wbindgen_error_new externref shim (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[22169]:0x14dae26)
+    at wasm.wasm.wasm::transform_sync::h853606eb67eb903b (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[2061]:0xb46b0f)
+    at wasm.wasm.wasm_bindgen_futures::future_to_promise::{{closure}}::{{closure}}::he6d9058065a921fb (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[10536]:0x12ed2a3)
+    at wasm.wasm.wasm_bindgen_futures::queue::QueueState::run_all::hc42d8332a12422d4 (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[8897]:0x123b19f)
+    at wasm.wasm.wasm_bindgen_futures::queue::Queue::new::{{closure}}::hec499be7695f83fd (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[21842]:0x14d886b)
+    at wasm.wasm.<dyn core::ops::function::FnMut<(A,)>+Output = R as wasm_bindgen::closure::WasmClosure>::describe::invoke::h7cc0545dfcf63eed (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[21840]:0x14d883b)
+    at wasm.wasm.closure1130 externref shim (wasm://wasm/wasm.wasm-06c8cba6:wasm-function[22694]:0x14de1ac)
+    at __wbg_adapter_50 (/data/data/com.termux/files/home/.npm/_npx/8b377f6eec906bc4/node_modules/next/wasm/@next/swc-wasm-nodejs/wasm.js:349:10)
+    at real (/data/data/com.termux/files/home/.npm/_npx/8b377f6eec906bc4/node_modules/next/wasm/@next/swc-wasm-nodejs/wasm.js:140:20)
+
+Import trace for requested module:
+./components/Products.tsx
+./app/page.tsx
+
+
+
+
+> Build failed because of webpack errors

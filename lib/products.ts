@@ -1,21 +1,39 @@
 import STORE from "../data/store.json";
+
 type P = any;
-function toNumber(x:any){ if(x==null) return; if(typeof x==="number"&&!Number.isNaN(x)) return x;
-  if(typeof x==="string"){ const n=Number(x.replace(/[^0-9.,-]/g,"").replace(",",".")); if(!Number.isNaN(n)) return n; } }
-function chooseId(p:P){ return (p.sku||p.slug||p.id||p.name||p.title||"unknown").toString(); }
-function chooseImage(p:P){
-  const c=[p.image,p.img,Array.isArray(p.images)?p.images[0]:undefined,
-    `/images/${p.sku||p.slug||p.id}.jpg`, `/images/${p.sku||p.slug||p.id}.png`].filter(Boolean) as string[];
-  return c[0]||"/images/placeholder.png";
-}
-function normalize(p:P){
-  const price=toNumber(p.price)??toNumber(p.pricing?.price)??(typeof p.price_cents==="number"?p.price_cents/100:undefined);
-  return { id:chooseId(p), title:(p.title||p.name||"").toString(),
-    price:typeof price==="number"&&price>0?Number(price.toFixed(2)):0,
-    currency:p.currency||"USD", image:chooseImage(p),
-    images:Array.isArray(p.images)&&p.images.length?p.images:[chooseImage(p)],
-    enabled:p.enabled!==false, ...p };
-}
-export function getProducts(){ return (STORE as any[]).map(normalize); }
-export function getProductById(id:string){ return getProducts().find(p=>p.id===id); }
-export async function fetchProducts(){ return getProducts(); }
+
+const num = (x: any) => {
+  if (x == null) return 0;
+  if (typeof x === "number") return x;
+  const n = Number(String(x).replace(/[^0-9.,-]/g, "").replace(",", "."));
+  return Number.isNaN(n) ? 0 : n;
+};
+
+const pid = (p: P) =>
+  String(p?.sku || p?.slug || p?.id || p?.name || p?.title || "unknown");
+
+const pick = (p: P) => {
+  const id = pid(p);
+  const c = [
+    p?.image,
+    p?.img,
+    Array.isArray(p?.images) ? p.images[0] : undefined,
+    `/images/${id}.png`,
+    `/images/${id}.jpg`,
+  ].find(Boolean) as string | undefined;
+  return c || "/images/placeholder.png";
+};
+
+const norm = (p: P) => ({
+  id: pid(p),
+  title: String(p?.title || p?.name || pid(p)),
+  price: Number(num(p?.price) || (typeof p?.price_cents === "number" ? p.price_cents / 100 : 0)),
+  image: pick(p),
+  images: Array.isArray(p?.images) && p.images.length ? p.images : [pick(p)],
+  ...p,
+});
+
+export function getProducts() { return (STORE as any[]).map(norm); }
+export function getProductById(id: string) { return getProducts().find(p => p.id === id); }
+export async function fetchProducts() { return getProducts(); }
+

@@ -1,2 +1,2 @@
-import { fetchProducts } from "../../../lib/products";
-export async function GET(){ const products = await fetchProducts(); return new Response(JSON.stringify({products}), {headers: {"Content-Type":"application/json"}}); }
+import { getProducts } from "../../../lib/products";
+export async function GET(){ return new Response(JSON.stringify({products:getProducts()}),{headers:{"Content-Type":"application/json"}}); }

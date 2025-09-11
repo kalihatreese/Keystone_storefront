@@ -1,15 +1,19 @@
-import { fetchProducts } from "../lib/products";
-import AddToCart from "./ui/AddToCart";
-export default async function Products(){
-  const products = await fetchProducts();
+import AddToCart from "./AddToCart";
+import { getProducts } from "../lib/products";
+
+export default function Products(){
+  const products = getProducts();
   return (
-    <div style={{display:"grid", gridTemplateColumns:"repeat(auto-fill, minmax(220px,1fr))", gap:16}}>
-      {products.filter(p=>p.enabled!==false).map(p => (
-        <div key={p.id} style={{border:"1px solid #eee", borderRadius:8, padding:12}}>
-          <div style={{fontWeight:700}}>{(p.title || (p.title || (p.title || p.name)))}</div>
-          <div style={{color:"#666", fontSize:14, minHeight:40}}>{(p as any)?.description ?? ""}</div>
-          <div style={{margin:"8px 0", fontWeight:700}}>${(Number(p.price)).toFixed(2)}</div>
-          <AddToCart id={p.id} name={(p.title || (p.title || (p.title || p.name)))} price={p.price} />
+    <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,minmax(220px,1fr))",gap:16}}>
+      {products.map((p:any)=>(
+        <div key={p.id} style={{border:"1px solid #eee",borderRadius:12,padding:12}}>
+          <div style={{position:"relative",width:"100%",aspectRatio:"1/1",overflow:"hidden",borderRadius:8,background:"#f8f8f8"}}>
+            <img src={p.image} alt={p.title||p.id} style={{width:"100%",height:"100%",objectFit:"cover"}} />
+          </div>
+          <div style={{fontWeight:600,marginTop:8}}>{p.title || p.id}</div>
+          <div style={{color:"#666",fontSize:14,minHeight:40}}>{p.description ?? ""}</div>
+          <div style={{margin:"8px 0",fontWeight:700}}>${Number(p.price||0).toFixed(2)}</div>
+          <AddToCart id={p.id}/>
         </div>
       ))}
     </div>
